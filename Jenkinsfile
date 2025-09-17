@@ -38,7 +38,7 @@ pipeline {
 
                 // Run your Python scripts 
 
-                bat 'Python Edit With Image Component.py'
+                bat 'View_and_Edit_text_component.py'
 
             } 
 
