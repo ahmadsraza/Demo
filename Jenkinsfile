@@ -39,6 +39,8 @@ pipeline {
                 // Run your Python scripts 
 
                 bat 'View_and_Edit_text_component.py'
+                bat 'Upload.py'
+                
 
             } 
 
