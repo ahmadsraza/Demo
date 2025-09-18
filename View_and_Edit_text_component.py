@@ -21,38 +21,38 @@ driver.find_element(By.XPATH, "//input[@id='mui-5']").send_keys("Omar@085")
 driver.find_element(By.XPATH,"//button[@type='submit']").click()
 time.sleep(5)
 
-# '''-------View Icon-----'''
+'''-------View Icon-----'''
 
-# driver.find_element(By.XPATH,"//*[@id='67a1e306d6d46c42d36c7cc5']/div[3]/div/button[1]").click()
-# time.sleep(5)
-# driver.find_element(By.XPATH,"//*[@id='preview']/div/div/button[2]").click()
-# time.sleep(5)
-# driver.find_element(By.XPATH,"/html/body/div[5]/div[3]/div/div/div[1]/div[3]/div/button[2]").click()
-# time.sleep(5)
+driver.find_element(By.XPATH,"//*[@id='67a1e306d6d46c42d36c7cc5']/div[3]/div/button[1]").click()
+time.sleep(5)
+driver.find_element(By.XPATH,"//*[@id='preview']/div/div/button[2]").click()
+time.sleep(5)
+driver.find_element(By.XPATH,"/html/body/div[5]/div[3]/div/div/div[1]/div[3]/div/button[2]").click()
+time.sleep(5)
 
-# '''-------Edit Icon-----'''
+'''-------Edit Icon-----'''
 
-# '''-------Edit Icon Text Component-----'''
+'''-------Edit Icon Text Component-----'''
 
-# driver.find_element(By.XPATH,"//*[@id='67a1e306d6d46c42d36c7cc5']/div[3]/div/a[1]/button").click()
-# time.sleep(2)
-# driver.find_element(By.XPATH,"//*[@id='simple-tabpanel-0']/div/div/div/div[2]").click()
-# time.sleep(2)
-# driver.find_element(By.XPATH,"//*[@id='confirmDeleteButton']").click()
-# time.sleep(2)
-#
-# test= driver.find_element(By.XPATH,"//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 text-right css-1s50f5r']/input[@name='left']")
-# action = ActionChains(driver)
-# action.double_click(on_element=test)
-# action.perform()
-# time.sleep(2)
-# test.send_keys("a")
-# test.clear()
-# time.sleep(2)
-# test.click()
-# time.sleep(2)
-# test.send_keys("100")
-# time.sleep(2)
+driver.find_element(By.XPATH,"//*[@id='67a1e306d6d46c42d36c7cc5']/div[3]/div/a[1]/button").click()
+time.sleep(2)
+driver.find_element(By.XPATH,"//*[@id='simple-tabpanel-0']/div/div/div/div[2]").click()
+time.sleep(2)
+driver.find_element(By.XPATH,"//*[@id='confirmDeleteButton']").click()
+time.sleep(2)
+
+test= driver.find_element(By.XPATH,"//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 text-right css-1s50f5r']/input[@name='left']")
+action = ActionChains(driver)
+action.double_click(on_element=test)
+action.perform()
+time.sleep(2)
+test.send_keys("a")
+test.clear()
+time.sleep(2)
+test.click()
+time.sleep(2)
+test.send_keys("100")
+time.sleep(2)
 # #driver.find_element(By.XPATH,"//input[@type='number' and @name='left']").click()
 # #time.sleep(3)
 # #driver.find_element(By.XPATH,"//input[@type='number' and @name='left']").clear()
@@ -153,4 +153,5 @@ time.sleep(5)
 
 
 driver.close()
+
 
