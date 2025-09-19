@@ -46,8 +46,9 @@ time.sleep(10)
 #driver.find_element(By.XPATH, "//*[@id='modal']/div/div[3]/div/div/div/form/div[1]/div/div").send_keys("C:/Users/Ahmad.Raza/OneDrive - Business Solutions & Services/test_auto/latest.zip")
 submit_button = driver.find_element(By.XPATH, '//button[@type="submit"]').click()
 
-time.sleep(150)
+time.sleep(20)
 
 
 driver.close()
+
 
