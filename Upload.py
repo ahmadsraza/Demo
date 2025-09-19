@@ -29,7 +29,7 @@ file_input = driver.find_element(By.XPATH,"//*[@id='modal']/div/div[3]/div/div/d
 time.sleep(5)
 #file_path = "C:/Users/Ahmad.Raza/OneDrive - Business Solutions & Services/latest.zip"
 
-file_input.send_keys("C:/Users/Ahmad.Raza/OneDrive - Business Solutions & Services/Documents/latest.zipp")
+file_input.send_keys("C:/Users/Ahmad.Raza/OneDrive - Business Solutions & Services/Documents/latest.zip")
 time.sleep(5)
 '''
 driver.find_element(By.XPATH,"//*[@id='modal']/div/div[3]/div/div/div/form/div[1]/div/div").click()
@@ -38,7 +38,7 @@ time.sleep(5)
 Keyboard = Controller()
 
 #Keyboard.type("C:\\Users\\Ahmad.Raza\\OneDrive - Business Solutions & Services\\Documents\\latest.zip")
-Keyboard.type("C:\\Users\\Ahmad.Raza\\OneDrive - Business Solutions & Services\\Documents\\latest.zip")
+Keyboard.type("C:\\Users\\Ahmad.Raza\\OneDrive - Business Solutions & Services\\Documents\\latest.zipp")
 time.sleep(5)
 keyboard.press('enter')  # Press the 'Enter' key
 keyboard.release('enter')
@@ -50,6 +50,7 @@ time.sleep(20)
 
 
 driver.close()
+
 
 
 
