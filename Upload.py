@@ -38,7 +38,7 @@ time.sleep(5)
 Keyboard = Controller()
 
 #Keyboard.type("C:\\Users\\Ahmad.Raza\\OneDrive - Business Solutions & Services\\Documents\\latest.zip")
-Keyboard.type("C:\\Users\\Ahmad.Raza\\OneDrive - Business Solutions & Services\\Documents\\latest.zipp")
+Keyboard.type("C:\\Users\\Ahmad.Raza\\OneDrive - Business Solutions & Services\\Documents\\latest.zip")
 time.sleep(5)
 keyboard.press('enter')  # Press the 'Enter' key
 keyboard.release('enter')
@@ -50,6 +50,7 @@ time.sleep(20)
 
 
 driver.close()
+
 
 
 
